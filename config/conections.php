@@ -2,8 +2,8 @@
 
 $host = "localhost";
 $db = "agenda";
-$user = "root";
-$pass = "";
+$user = "neilton";
+$pass = "296529Ne";
 
 
 

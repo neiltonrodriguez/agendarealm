@@ -1,3 +1,4 @@
+
 <?php
 
 include_once("templates/header.php");
@@ -27,8 +28,8 @@ include_once("templates/header.php");
             <td scope="rol"><?= $contact["name"] ?> </td>
             <td scope="rol"><?= $contact["phone"] ?> </td>
             <td class="actions">
-            <a href="#"><i class="fas fa-eye check-icon"></i></a>   
-            <a href="#"><i class="far fa-edit edit-icon"></i></a>
+            <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon"></i></a>   
+            <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact["id"] ?>"><i class="far fa-edit edit-icon"></i></a>
             <buton type="submit"><i class="fas fa-times delete-icon"></i></button>   
             </td>
 
