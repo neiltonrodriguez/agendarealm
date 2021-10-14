@@ -31,6 +31,16 @@
 .edit-icon{
     color:blue;
 }
+.delete-btn{
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.delete-form{
+    display: inline-block;
+}
+
 .delete-icon{
     color: red;
 }
